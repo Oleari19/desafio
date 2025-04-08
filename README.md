@@ -8,7 +8,6 @@ Identificar as **3 regiões mais promissoras** para a instalação de novos labo
 - Demográficos (faixa etária da população);
 - Volume de exames transacionais por região.
 
----
 
 ## 📁 Estrutura do Projeto
 
@@ -39,7 +38,6 @@ desafio/
 └── requirements.txt         # Bibliotecas necessárias
 ```
 
----
 
 ## Como Executar o Projeto
 
@@ -58,7 +56,6 @@ pip install -r requirements.txt
 
 > Inclui bibliotecas como `pandas`, `matplotlib`, `seaborn`, `jupyter`.
 
----
 
 ### 3. Execute os notebooks
 
@@ -90,7 +87,6 @@ Veja um resumo do que cada um faz:
 - **06_final_analysis.ipynb**  
   Consolida todas as bases tratadas (econômica, exames, demográfica e transacional), realiza cruzamentos e gera os **insights finais**, incluindo a seleção das **3 regiões mais promissoras**.
 
----
 
 ### 4. Execute o pipeline completo
 
@@ -114,7 +110,6 @@ Na pasta `data/`, serão salvos:
 - `final_analytical_demographic.csv` – Base analítica com dados demográficos enxutos.
 
 > Após o salvamento das bases analíticas execute o notebook 06_final_analysis.ipynb
----
 
 
 ## Etapas Realizadas
@@ -160,7 +155,6 @@ Na pasta `data/`, serão salvos:
 - Hipótese final com destaque das 3 ZCTAs escolhidas.
 - Justificativa clara e direta para apoio à **expansão estratégica dos laboratórios**.
 
----
 
 ## Recomendação Final
 
@@ -171,4 +165,3 @@ As **3 ZCTAs ideais para expansão** foram:
 - **79936** – Com mais de 110 mil habitantes e 15,1% da população na faixa de 25 a 34 anos, essa região une alto volume populacional com uma forte presença da faixa etária que mais realiza os exames de maior rentabilidade. É uma região estratégica por ter um perfil populacional muito alinhado com o público-alvo dos exames mais lucrativos.
 
 - **11385** – Apesar de ter uma população um pouco menor que as outras duas, se destaca por ter a maior concentração proporcional da faixa etária 25–34 anos. Como essa é a faixa que mais consome os exames com maior lucro, essa ZCTA é altamente qualificada em termos de público-alvo, representando um ótimo retorno em potencial.
----
