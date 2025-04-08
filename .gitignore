@@ -1,0 +1,6 @@
+# Ignorar arquivos de dados grandes
+data/transactional_data.csv
+data/transactional_treated.csv
+
+# Ambiente virtual
+.venv/
