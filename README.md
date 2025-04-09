@@ -3,13 +3,14 @@
 ## Objetivo
 
 Identificar as **3 regiões mais promissoras** para a instalação de novos laboratórios, com base em dados:
+- Econômicos
+- Demográficos
+- Geocodificados
+- Transacionais
+- Dos exames
 
-- Econômicos (receita líquida de exames);
-- Demográficos (faixa etária da população);
-- Volume de exames transacionais por região.
 
-
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 desafio/
@@ -56,8 +57,17 @@ pip install -r requirements.txt
 
 > Inclui bibliotecas como `pandas`, `matplotlib`, `seaborn`, `jupyter`.
 
+### 3. Dados
 
-### 3. Execute os notebooks
+Dois arquivos de dados utilizados neste projeto são muito grandes para serem armazenados no GitHub. Por isso, **não estão inclusos no repositório**.
+
+Você pode baixar os dados manualmente pelos links abaixo e colocá-los na pasta `data/` do projeto:
+
+- [`transactional_data.csv`](https://drive.google.com/drive/folders/1kxSRQKKmgQ-6XDxC0c87J0SMR9TFpTY3?usp=drive_link)
+- [`transactional_treated.csv`](https://drive.google.com/drive/folders/1kxSRQKKmgQ-6XDxC0c87J0SMR9TFpTY3?usp=drive_link)
+  
+
+### 4. Execute os notebooks
 
 Abra os notebooks em `notebooks/` com Jupyter ou VS Code para rodar os sanity checks e a análise final na ordem enumerada.
 
@@ -88,7 +98,7 @@ Veja um resumo do que cada um faz:
   Consolida todas as bases tratadas (econômica, exames, demográfica e transacional), realiza cruzamentos e gera os **insights finais**, incluindo a seleção das **3 regiões mais promissoras**.
 
 
-### 4. Execute o pipeline completo
+### 5. Execute o pipeline completo
 
 ```bash
 cd scripts
@@ -139,7 +149,7 @@ Na pasta `data/`, serão salvos:
     - Qualidade
     - Análises exploratórias
     - Hipótese individual sobre a base em questão
-7. Criação do pipeline
+7. Criação do pipeline e das bases analíticas
 8. Criação do notebook 06
     - Confirmação da base analítica
     - Todas as hipóteses levantadas
@@ -149,8 +159,8 @@ Na pasta `data/`, serão salvos:
 9. Requirements.txt
 10. README.md
 11. Apresentação final no Canva 
-- Introdução e contexto
-- Metodologia utilizada
+- Introdução e objetivo
+- Metodologia utilizada e limitações
 - Análises exploratórias que auxiliaram na decisão final
 - Hipótese final com destaque das 3 ZCTAs escolhidas.
 - Justificativa clara e direta para apoio à **expansão estratégica dos laboratórios**.
