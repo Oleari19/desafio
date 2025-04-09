@@ -29,7 +29,7 @@ desafio/
 │   └── 06_final_analysis.ipynb
 │
 ├── presentation/            # Slides de apresentação
-│   └── .pdf
+│   └── slides.pdf
 │
 ├── scripts/                 # Scripts do projeto
 │   └── pipeline.py
