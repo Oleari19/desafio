@@ -63,8 +63,8 @@ Dois arquivos de dados utilizados neste projeto são muito grandes para serem ar
 
 Você pode baixar os dados manualmente pelos links abaixo e colocá-los na pasta `data/` do projeto:
 
-- [`transactional_data.csv`](https://drive.google.com/drive/folders/1kxSRQKKmgQ-6XDxC0c87J0SMR9TFpTY3?usp=drive_link)
-- [`transactional_treated.csv`](https://drive.google.com/drive/folders/1kxSRQKKmgQ-6XDxC0c87J0SMR9TFpTY3?usp=drive_link)
+- [`transactional_data.csv`](https://drive.google.com/drive/folders/1kxSRQKKmgQ-6XDxC0c87J0SMR9TFpTY3?usp=sharing)
+- [`transactional_treated.csv`](https://drive.google.com/drive/folders/1kxSRQKKmgQ-6XDxC0c87J0SMR9TFpTY3?usp=sharing)
   
 
 ### 4. Execute os notebooks
